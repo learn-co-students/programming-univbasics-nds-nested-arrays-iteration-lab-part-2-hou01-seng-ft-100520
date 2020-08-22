@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pry'
 
 array_1 = [
   [19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
@@ -13,7 +14,7 @@ array_1 = [
 array_2 = [
   [1,2,3],
   [5,1,3],
-  [4,3,0] 
+  [4,3,0]
 ]
 
 describe "Write a method called \"find_min_in_nested_arrays\"" do
